@@ -25,6 +25,9 @@ public renderaba2(){
 
 public setEmit(event : string) {
   this.mensagens.push(event);
+  console.log(this.mensagens);
+
+  
 }
 
 

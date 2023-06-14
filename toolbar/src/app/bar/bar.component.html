@@ -2,9 +2,11 @@
     <div class="buttonbox">
         <button (click)=renderaba1() >Aba 1 </button>
         <button (click)=renderaba2() >Aba 2 </button>
+      
+    
     </div>
 </nav>
 
 <app-aba1 *ngIf="this.aba1"  (emitmensagem)="setEmit($event)"> </app-aba1>
-<app-aba2 *ngIf="this.aba2"></app-aba2>
+<app-aba2 *ngIf="this.aba2" [arraymensagens] = "mensagens"></app-aba2>
 
