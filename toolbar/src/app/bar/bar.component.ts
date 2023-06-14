@@ -17,19 +17,19 @@ constructor(){}
 public renderaba1(){
   this.aba1=true;
   this.aba2=false;
-  this.abaextra=false;
+  this.aba3=false;
 }
 
 public renderaba2(){
   this.aba1=false;
   this.aba2=true;
-  this.abaextra=false;
+  this.aba3=false;
 }
 
-public renderabaextra(){
+public renderaba3(){
   this.aba1=false;
   this.aba2=false;
-  this.abaextra=true;
+  this.aba3=true;
 }
 
 public setEmit(event : string) {
