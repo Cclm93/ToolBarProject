@@ -8,6 +8,8 @@ import { BarComponent } from './bar/bar.component';
 import { Aba2Component } from './aba2/aba2.component';
 import { Aba1Component } from './aba1/aba1.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { Aba1Component } from './aba1/aba1.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-     FormsModule
+     FormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

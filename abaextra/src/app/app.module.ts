@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AbaxtraComponent } from './abaxtra/abaxtra.component';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,6 +17,8 @@ import { AbaxtraComponent } from './abaxtra/abaxtra.component';
     BrowserModule,
     AppRoutingModule
   ],
+  exports:      [AppComponent, AbaxtraComponent ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
