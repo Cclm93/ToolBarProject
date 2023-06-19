@@ -39,5 +39,9 @@ public setEmit(event : string) {
   
 }
 
+public setUpper( event: Array<String>){
+this.mensagens = event
+}
+
 
 }

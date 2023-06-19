@@ -1,11 +1,43 @@
-import { Component,Input } from '@angular/core';
+import { Component,Input,Output, OnInit, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-aba3',
   templateUrl: './aba3.component.html',
   styleUrls: ['./aba3.component.scss']
 })
-export class Aba3Component {
+export class Aba3Component implements OnInit{
   @Input() arraymensagens: Array<String> = [];
+
+  @Output() public emitupper = new EventEmitter();
+
+  
+
+  constructor(){}
+
+  ngOnInit(): void {
+      
+    
+    
+    if(this.arraymensagens.length > 0){
+      
+      
+      for(let i =0 ; i <=this.arraymensagens.length ; i++){
+
+        this.arraymensagens[i] = this.arraymensagens[i].toUpperCase();
+
+      }
+
+
+
+      this.emitupper.emit(this.arraymensagens);
+    
+      }
+  
+
+
+
+
+  }
+
 
 }
