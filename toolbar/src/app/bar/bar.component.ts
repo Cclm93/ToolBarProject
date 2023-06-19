@@ -9,7 +9,7 @@ export class BarComponent {
 
 public aba1: boolean =false;
 public aba2: boolean =false;
-public abaextra: boolean =false;
+public aba3: boolean =false;
 public mensagens: Array<String> = [];
 
 constructor(){}

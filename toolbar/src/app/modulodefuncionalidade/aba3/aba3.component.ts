@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-aba3',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./aba3.component.scss']
 })
 export class Aba3Component {
+  @Input() arraymensagens: Array<String> = [];
 
 }

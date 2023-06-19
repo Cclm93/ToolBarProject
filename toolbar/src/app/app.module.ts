@@ -7,22 +7,28 @@ import { AppComponent } from './app.component';
 import { BarComponent } from './bar/bar.component';
 import { Aba2Component } from './aba2/aba2.component';
 import { Aba1Component } from './aba1/aba1.component';
-import { Aba3Component } from './fornecedordeabas/aba3/aba3.component';
+import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodefuncionalidade.module';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent, 
     BarComponent,
     Aba2Component,
-    Aba1Component
+    Aba1Component,
+
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
      FormsModule,
-     Aba3Component,
+     ModulodefuncionalidadeModule,
+     
+    
+     
+    
     
   ],
   providers: [],
