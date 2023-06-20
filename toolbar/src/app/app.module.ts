@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; //importação do FormsModule
 
-import { AppRoutingModule } from './app-routing.module';
+
+
+//Componentes
 import { AppComponent } from './app.component';
 import { BarComponent } from './bar/bar.component';
 import { Aba2Component } from './aba2/aba2.component';
 import { Aba1Component } from './aba1/aba1.component';
+
+//Módulos
+import { AppRoutingModule } from './app-routing.module';
 import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodefuncionalidade.module';
 
+//Libraries
 
 @NgModule({
   declarations: [
