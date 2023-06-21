@@ -10,33 +10,19 @@ export class Aba3Component implements OnInit{
 
   @Output() public emitupper = new EventEmitter();
 
-  
-
   constructor(){}
 
   ngOnInit(): void {
-      
-    
-    
+          
     if(this.arraymensagens.length > 0){
-      
-      
+            
       for(let i =0 ; i <=this.arraymensagens.length ; i++){
 
         this.arraymensagens[i] = this.arraymensagens[i].toUpperCase();
-
       }
-
-
 
       this.emitupper.emit(this.arraymensagens);
-    
       }
-  
-
-
-
-
   }
 
 
