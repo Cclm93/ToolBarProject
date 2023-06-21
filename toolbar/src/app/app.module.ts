@@ -15,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodefuncionalidade.module';
 
 //Libraries
+import { Aba4Module } from 'aba4';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodef
     BarComponent,
     Aba2Component,
     Aba1Component,
+    
 
    
   ],
@@ -30,10 +32,8 @@ import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodef
     AppRoutingModule,
      FormsModule,
      ModulodefuncionalidadeModule,
-  
-     
-    
-     
+     Aba4Module,
+        
     
     
   ],

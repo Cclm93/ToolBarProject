@@ -3,6 +3,7 @@ import { Aba4Component } from './aba4.component';
 import { Input,Output, OnInit, EventEmitter } from '@angular/core';
 
 
+
 @NgModule({
   declarations: [
     Aba4Component
@@ -16,7 +17,7 @@ import { Input,Output, OnInit, EventEmitter } from '@angular/core';
 export class Aba4Module implements OnInit {
   @Input() arraymensagens: Array<String> = [];
 
-  @Output() public emitupper = new EventEmitter();
+  @Output() public emitlower = new EventEmitter();
 
   constructor(){}
 
@@ -29,7 +30,7 @@ export class Aba4Module implements OnInit {
         this.arraymensagens[i] = this.arraymensagens[i].toLowerCase();
       }
 
-      this.emitupper.emit(this.arraymensagens);
+      this.emitlower.emit(this.arraymensagens);
       }
   }
  }

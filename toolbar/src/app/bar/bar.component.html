@@ -3,6 +3,7 @@
         <button (click)=renderaba1() >Aba 1 </button>
         <button (click)=renderaba2() >Aba 2 </button>
         <button (click)=renderaba3() >Aba 3 </button>
+        <button (click)=renderaba4() >Aba 4 </button>
     
     </div>
 </nav>
@@ -10,4 +11,5 @@
 <app-aba1 *ngIf="this.aba1"  (emitmensagem)="setEmit($event)"> </app-aba1>
 <app-aba2 *ngIf="this.aba2" [arraymensagens] = "mensagens"></app-aba2>
 <app-aba3 *ngIf="this.aba3" [arraymensagens] = "mensagens" (emitupper)="setUpper($event)"></app-aba3>
+<lib-aba4 *ngIf="this.aba4" [arraymensagens] = "mensagens" (emitlower)="setUpper($event)"></lib-aba4>
  
