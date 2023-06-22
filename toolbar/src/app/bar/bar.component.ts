@@ -43,18 +43,11 @@ public renderaba4(){
   this.aba4=true;
 }
 
-
-
-
 public setEmit(event : string) {
   this.mensagens.push(event);
   console.log(this.mensagens);
  
 }
-
-
-
-
 
 public setUpper( event: Array<String>){
 this.mensagens = event

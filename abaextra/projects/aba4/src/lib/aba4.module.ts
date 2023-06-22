@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Aba4Component } from './aba4.component';
-import { Input,Output, OnInit, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -17,16 +16,16 @@ import { BrowserModule } from '@angular/platform-browser';
     Aba4Component
   ]
   })
-export class Aba4Module implements OnInit {
-  @Input() arraymensagens: Array<String> = [];
+export class Aba4Module {
+  /*@Input() arraymensagens: Array<String> = [];
 
   @Output() public emitlower = new EventEmitter();
 
   constructor(){}
 
   ngOnInit(): void {
-          
-    if(this.arraymensagens.length > 0){
+     
+  if(this.arraymensagens.length > 0){
             
       for(let i =0 ; i <=this.arraymensagens.length ; i++){
 
@@ -35,5 +34,5 @@ export class Aba4Module implements OnInit {
 
       this.emitlower.emit(this.arraymensagens);
       }
-  }
+  }*/
  }

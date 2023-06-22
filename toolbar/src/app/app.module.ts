@@ -15,7 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodefuncionalidade.module';
 
 //Libraries
-import { Aba4Module } from 'aba4';
+import {  Aba4Module } from 'aba4';
 
 @NgModule({
   declarations: [
@@ -23,8 +23,6 @@ import { Aba4Module } from 'aba4';
     BarComponent,
     Aba2Component,
     Aba1Component,
-    
-
    
   ],
   imports: [
@@ -33,8 +31,7 @@ import { Aba4Module } from 'aba4';
      FormsModule,
      ModulodefuncionalidadeModule,
      Aba4Module,
-        
-    
+     
     
   ],
   providers: [],
