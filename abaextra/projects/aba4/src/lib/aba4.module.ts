@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Aba4Component } from './aba4.component';
 import { Input,Output, OnInit, EventEmitter } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 @NgModule({
@@ -9,11 +10,13 @@ import { Input,Output, OnInit, EventEmitter } from '@angular/core';
     Aba4Component
   ],
   imports: [
+    FormsModule,
+    BrowserModule,
   ],
   exports: [
     Aba4Component
   ]
-})
+  })
 export class Aba4Module implements OnInit {
   @Input() arraymensagens: Array<String> = [];
 
