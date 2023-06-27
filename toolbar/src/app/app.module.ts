@@ -16,6 +16,7 @@ import { ModulodefuncionalidadeModule } from './modulodefuncionalidade/modulodef
 
 //Libraries
 import {  Aba4Module } from 'aba4';
+import {  Aba7Module } from 'aba7';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import {  Aba4Module } from 'aba4';
      FormsModule,
      ModulodefuncionalidadeModule,
      Aba4Module,
+     Aba7Module,
      
     
   ],
