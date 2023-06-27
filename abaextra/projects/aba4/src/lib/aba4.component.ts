@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Input,Output, OnInit, EventEmitter } from '@angular/core';
-//import * as NewType from './NewType';
+
 
 @Component({
   selector: 'lib-aba4',
@@ -14,12 +14,7 @@ import { Input,Output, OnInit, EventEmitter } from '@angular/core';
         </li>
     </ul>
 
-    <p  > ta vazio</p>
-
-    <p>Funcionalidade vinda de uma library importada de outro projeto</p>
-  
-  
-  
+    <p>Funcionalidade vinda de uma library importada de outro projeto :D</p>
   
   `,
   styles: [
@@ -36,6 +31,8 @@ export class Aba4Component implements OnInit {
 
   ngOnInit(): void {
           
+    
+    console.log("arraymensagens é:  *" + this.arraymensagens + "*")
 
     if(this.arraymensagens.length > 0){
             

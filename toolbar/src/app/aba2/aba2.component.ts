@@ -1,4 +1,4 @@
-import { Component , Input } from '@angular/core';
+import { Component , Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-aba2',
@@ -6,8 +6,12 @@ import { Component , Input } from '@angular/core';
   styleUrls: ['./aba2.component.scss']
 })
 
-export class Aba2Component {
+export class Aba2Component implements OnInit{
 
   @Input() arraymensagens: Array<String> = [];
+
+  ngOnInit(): void {
+      console.log("aba2")
+  }
 
 }

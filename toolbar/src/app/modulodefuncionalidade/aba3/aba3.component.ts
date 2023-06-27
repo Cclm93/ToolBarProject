@@ -13,7 +13,9 @@ export class Aba3Component implements OnInit{
   constructor(){}
 
   ngOnInit(): void {
-          
+      
+    console.log("aba3")
+
     if(this.arraymensagens.length > 0){
             
       for(let i =0 ; i <=this.arraymensagens.length ; i++){
