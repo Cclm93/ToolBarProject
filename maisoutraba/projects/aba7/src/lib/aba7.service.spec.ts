@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { Aba5Service } from './aba5.service';
+import { Aba7Service } from './aba7.service';
 
-describe('Aba5Service', () => {
-  let service: Aba5Service;
+describe('Aba7Service', () => {
+  let service: Aba7Service;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(Aba5Service);
+    service = TestBed.inject(Aba7Service);
   });
 
   it('should be created', () => {
