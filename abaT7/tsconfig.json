@@ -3,8 +3,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "aba6": [
-        "dist/aba6"
+      "aba7": [
+        "dist/aba7"
       ]
     },
     "baseUrl": "./",

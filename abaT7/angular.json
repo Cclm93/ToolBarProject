@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "aba6": {
+    "aba7": {
       "projectType": "library",
-      "root": "projects/aba6",
-      "sourceRoot": "projects/aba6/src",
+      "root": "projects/aba7",
+      "sourceRoot": "projects/aba7/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/aba6/ng-package.json"
+            "project": "projects/aba7/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/aba6/tsconfig.lib.prod.json"
+              "tsConfig": "projects/aba7/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/aba6/tsconfig.lib.json"
+              "tsConfig": "projects/aba7/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/aba6/tsconfig.spec.json",
+            "tsConfig": "projects/aba7/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
@@ -38,6 +38,6 @@
     }
   },
   "cli": {
-    "analytics": "4c0ed263-8766-4891-8a11-2e250954658f"
+    "analytics": "2c1de01f-85f1-4a5f-aac8-740916658027"
   }
 }
