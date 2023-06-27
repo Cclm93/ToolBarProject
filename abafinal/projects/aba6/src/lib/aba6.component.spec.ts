@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Aba7Component } from './aba7.component';
+import { Aba6Component } from './aba6.component';
 
-describe('Aba7Component', () => {
-  let component: Aba7Component;
-  let fixture: ComponentFixture<Aba7Component>;
+describe('Aba6Component', () => {
+  let component: Aba6Component;
+  let fixture: ComponentFixture<Aba6Component>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [Aba7Component]
+      declarations: [Aba6Component]
     });
-    fixture = TestBed.createComponent(Aba7Component);
+    fixture = TestBed.createComponent(Aba6Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

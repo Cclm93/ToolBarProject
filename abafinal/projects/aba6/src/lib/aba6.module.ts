@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
-import { Aba7Component } from './aba7.component';
+import { Aba6Component } from './aba6.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 
 @NgModule({
   declarations: [
-    Aba7Component
+    Aba6Component
   ],
   imports: [
     FormsModule,
     BrowserModule,
   ],
   exports: [
-    Aba7Component
+    Aba6Component
   ]
   })
-export class Aba7Module {
+export class Aba4Module {
   /*@Input() arraymensagens: Array<String> = [];
 
   @Output() public emitlower = new EventEmitter();

@@ -1,0 +1,43 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "aba6": {
+      "projectType": "library",
+      "root": "projects/aba6",
+      "sourceRoot": "projects/aba6/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/aba6/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/aba6/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/aba6/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/aba6/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "4c0ed263-8766-4891-8a11-2e250954658f"
+  }
+}

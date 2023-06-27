@@ -3,7 +3,7 @@ import { Input,Output, OnInit, EventEmitter } from '@angular/core';
 
 
 @Component({
-  selector: 'lib-aba7',
+  selector: 'lib-aba6',
   template: `
     <p>
     <h1>To Lowercase</h1>
@@ -20,7 +20,7 @@ import { Input,Output, OnInit, EventEmitter } from '@angular/core';
   styles: [
   ]
 })
-export class Aba7Component implements OnInit {
+export class Aba6Component implements OnInit {
 
 
   @Input() arraymensagens: Array<String>= [];
