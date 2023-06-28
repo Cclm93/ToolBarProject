@@ -6,15 +6,9 @@ import { Input,Output, OnInit, EventEmitter } from '@angular/core';
   selector: 'lib-aba7',
   template: `
     <p>
-    <h1>To Lowercase</h1>
+    <h1>Teste básico</h1>
 
-    <ul>
-        <li *ngFor="let mensagem of this.arraymensagens ">
-            <p> {{mensagem}}</p>                     
-        </li>
-    </ul>
-
-    <p>Funcionalidade vinda de uma library importada de outro projeto :D</p>
+        <p>Funcionalidade vinda de uma library importada de outro projeto :D</p>
   
   `,
   styles: [
